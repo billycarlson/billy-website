@@ -1,0 +1,40 @@
+{%- assign settings = site.data.settings -%}
+{%- assign favicon = site.data.settings.favicon -%}
+{%- assign name = settings.legal.name -%}
+{%- assign title = settings.seo.title -%}
+{%- assign divider = settings.seo.divider -%}
+{%- assign keywords = settings.seo.keywords -%}
+{%- assign description = settings.seo.description -%}
+{%- assign index = settings.meta.index -%}
+{%- assign time = site.time | date: '%Y%m%d%H%M%S' -%}
+{%- assign id = name | downcase -%}
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="application-name" content="{{ name }}">
+
+<title>{%- if page.title -%}{{ page.title }} {{ divider }} {{ name }}{%- else -%}{{ title }}{%- endif -%}</title>
+<meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ description }}{%- endif -%}">
+<meta name="keywords" content="{%- if page.keywords -%}{{ page.keywords }}{%- else -%}{{ keywords }}{%- endif -%}">
+<meta name="url" content="{{ site.baseurl }}{{ page.url }}">
+
+<!-- Index tags -->
+<meta name="robots" content="{% if index == "noindex" %}noindex,nofollow,noodp{% else %}index,follow,noodp{% endif %}">
+
+<!-- Link tags -->
+<link href="{{ site.baseurl }}/assets/css/main.css?{{ time }}" rel="stylesheet">
+
+<!-- Facebook Open Graph -->
+<meta property="og:site_name" content="{{ name }}"/>
+<meta property="og:title" content="{%- if page.title -%}{{ page.title }} {{ divider }} {{ name }}{%- else -%}{{ title }}{%- endif -%}"/>
+<meta property="og:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ description }}{%- endif -%}"/>
+{%- comment -%}<meta property="og:image" content=""/>{%- endcomment -%}
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="website"/>
+
+<!-- Twitter Cards -->
+<meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
+<meta name="twitter:title" content="{%- if page.title -%}{{ page.title }} {{ divider }} {{ name }}{%- else -%}{{ title }}{%- endif -%}"/>
+<meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ description }}{%- endif -%}">
+{%- comment -%}<meta name="twitter:image" content=""/>{%- endcomment -%}
+{%- comment -%}<meta name="twitter:creator" content="@"/>{%- endcomment -%}

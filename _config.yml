@@ -1,0 +1,73 @@
+# Where things are
+source: 
+destination: _site
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
+# Where things are
+source:
+destination: _site
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
+# Handling Reading
+include: [".htaccess"]
+exclude: ["admin/" ,"lib/" ,"src/" ,"trash/" ,"zones/" ,"master/_site" ,"master/LICENSE" ,"Gemfile" ,"Gemfile.lock" ,".gitignore" ,"node_modules" ,"vendor/bundle/" ,"vendor/cache/" ,"vendor/gems/" ,"vendor/ruby/" ,"LICENSE"]
+keep_files: ["images"]
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future: false
+unpublished: false
+
+# Sass Compiler
+sass:
+    sass_dir: _sass
+    style: compressed
+    
+# Conversion
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap:     false
+  show_warnings: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Plugins
+whitelist: []
+
+# Serving
+port:             8005
+host:             localhost
+baseurl:          ""
+livereload:       false
+
+# Outputting
+encoding: UTF-8
+permalink: pretty
+timezone: null
+
+quiet:    false
+verbose:  false
+defaults: []
+
+liquid:
+  error_mode:       warn
+  strict_filters:   false
+  strict_variables: false

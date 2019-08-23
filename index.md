@@ -11,12 +11,14 @@ description:
 		<div class="row no-gutters">
 			<div class="section-block_intro">
 				<div class="section-block_left text-right">
-					<span class="text-xl text-bold color-truewhite">Billy</span>
-					<span class="text-xl text-bold color-truewhite">Carlson</span>
+					<span class="text-xl color-truewhite">Billy</span>
+					<span class="text-xl color-truewhite">Carlson</span>
 				</div>
 				<div class="section-block_right text-left">
-					<span class="text-xl text-bold color-trueblack">Design</span>
-					<span class="text-xl text-bold color-trueblack">Engaged</span>
+					<span class="text-xl color-trueblack">Designer</span>
+					<span class="text-xl color-trueblack">Writer</span>
+					<span class="text-xl color-trueblack">Educator</span>
+
 				</div>
 			</div>
 		</div>

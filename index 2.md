@@ -1,42 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="application-name" content="">
+---
 
-<title>Page &mdash; </title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="url" content="/page/">
+layout: default
+title:
+description:
 
-<!-- Index tags -->
-<meta name="robots" content="noindex,nofollow,noodp">
-
-<!-- Link tags -->
-<link href="/assets/css/main.css?20190929200939" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/ykc3mnk.css">
-
-<!-- Facebook Open Graph -->
-<meta property="og:site_name" content=""/>
-<meta property="og:title" content="Page &mdash; "/>
-<meta property="og:description" content=""/><meta property="og:locale" content="en_US"/>
-<meta property="og:type" content="website"/>
-
-<!-- Twitter Cards -->
-<meta name="twitter:url" content="/page/">
-<meta name="twitter:title" content="Page &mdash; "/>
-<meta name="twitter:description" content="">
-  </head>
-  <body>
-    <!-- Header Nav -->
-    <section class="section-block size-xxl" style="background-color:#DE1430">
+---
+<section class="section-block size-xxl" style="background-color:#DE1430">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="section-block_intro">
-				<div class="w-100 text-center">
-					<span class="text-xl text-bold color-truewhite">Headline</span>
+				<div class="section-block_left text-right">
+					<span class="text-xl color-truewhite">Billy</span>
+					<span class="text-xl color-truewhite">Carlson</span>
+				</div>
+				<div class="section-block_right text-left">
+					<span class="text-xl color-trueblack">Designer</span>
+					<span class="text-xl color-trueblack">Writer</span>
+					<span class="text-xl color-trueblack">Educator</span>
+
 				</div>
 			</div>
 		</div>
@@ -48,7 +29,7 @@
 		<div class="row no-gutters">
 			<div class="section-block_project d-flex align-items-center justify-content-around">
 				<div class="section-block_left d-flex align-items-center justify-content-center">
-					<img src="https://66.media.tumblr.com/dcb85d4d9a6d4eaca5a84e2e94fcba2b/tumblr_pd91g8rKTm1qb9id4o1_640.jpg" alt="" />
+					<img src="https://66.media.tumblr.com/dcb85d4d9a6d4eaca5a84e2e94fcba2b/tumblr_pd91g8rKTm1qb9id4o1_640.jpg" alt="">
 				</div>
 				<div class="section-block_right">
 					<div class="text-lg text-bold color-truewhite mb-3">The Covers of Graphic Design</div>
@@ -59,12 +40,13 @@
 	</div>
 </section>
 
+
 <section class="section-block size-xl" style="background-color:#000">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="section-block_project d-flex align-items-center justify-content-around">
 				<div class="section-block_left d-flex align-items-center justify-content-center">
-					<img src="https://66.media.tumblr.com/20d96b4f3c32c904a283e61021116ab5/tumblr_p3frpj7Jed1qiazldo1_1280.gif" alt="" />
+					<img src="https://66.media.tumblr.com/20d96b4f3c32c904a283e61021116ab5/tumblr_p3frpj7Jed1qiazldo1_1280.gif" alt="">
 				</div>
 				<div class="section-block_right">
 					<div class="text-lg text-bold color-truewhite mb-3">Format: Gif Animated Section</div>
@@ -75,12 +57,13 @@
 	</div>
 </section>
 
+
 <section class="section-block size-xl" style="background-color:#AB0F25">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="section-block_project d-flex align-items-center justify-content-around">
 				<div class="section-block_left d-flex align-items-center justify-content-center">
-					<img src="https://66.media.tumblr.com/4893b9471712ea51458ecc1b0a79fede/tumblr_nwh22j70Qq1s5bwizo1_1280.png" alt="" />
+					<img src="https://66.media.tumblr.com/4893b9471712ea51458ecc1b0a79fede/tumblr_nwh22j70Qq1s5bwizo1_1280.png" alt="">
 				</div>
 				<div class="section-block_right">
 					<div class="text-lg text-bold color-truewhite mb-3">Project Name</div>
@@ -96,10 +79,10 @@
 		<div class="row no-gutters">
 			<div class="section-block_project d-flex align-items-center justify-content-around">
 				<div class="section-block_left d-flex align-items-center justify-content-center">
-					<img src="https://66.media.tumblr.com/fe26dbb233135ee1c757f87454f0030a/tumblr_o7jgm7BlGH1uyyh0go1_640.jpg" alt="" />
+					<img src="https://66.media.tumblr.com/fe26dbb233135ee1c757f87454f0030a/tumblr_o7jgm7BlGH1uyyh0go1_640.jpg" alt="">
 				</div>
 				<div class="section-block_right">
-					<div class="text-lg text-bold color-truewhite mb-3">Futura: History &amp; Case Study</div>
+					<div class="text-lg text-bold color-truewhite mb-3">Futura: History & Case Study</div>
 					<div class="text-sm color-truewhite-o">Futura is a geometric sans-serif typeface designed by Paul Renner and released in 1927. It was designed as a contribution on the New Frankfurt-project. It is based on geometric shapes, especially the circle, similar in spirit to the Bauhaus design style of the period.</div>
 				</div>
 			</div>
@@ -112,7 +95,7 @@
 		<div class="row no-gutters">
 			<div class="section-block_project d-flex align-items-center justify-content-around">
 				<div class="section-block_left d-flex align-items-center justify-content-center">
-					<img src="https://66.media.tumblr.com/0cfd56855d73817e732773f64ed68377/tumblr_oybh19VlJe1s0lr9co1_1280.jpg" alt="" />
+					<img src="https://66.media.tumblr.com/0cfd56855d73817e732773f64ed68377/tumblr_oybh19VlJe1s0lr9co1_1280.jpg" alt="">
 				</div>
 				<div class="section-block_right">
 					<div class="text-lg text-bold color-truewhite mb-3">Tiny Lovers</div>
@@ -128,7 +111,7 @@
 		<div class="row no-gutters">
 			<div class="section-block_project d-flex align-items-center justify-content-around">
 				<div class="section-block_left d-flex align-items-center justify-content-center">
-					<img src="https://66.media.tumblr.com/b54159ec00bffeb2117eedc644eb8130/tumblr_p6rnv5yMbb1w5xkdko1_1280.png" alt="" />
+					<img src="https://66.media.tumblr.com/b54159ec00bffeb2117eedc644eb8130/tumblr_p6rnv5yMbb1w5xkdko1_1280.png" alt="">
 				</div>
 				<div class="section-block_right">
 					<div class="text-lg text-bold color-truewhite mb-3">Neufile Grotesk</div>
@@ -139,7 +122,21 @@
 	</div>
 </section>
 
-    <script src="/assets/js/jquery.js?20190929200939"></script>
-<script src="/assets/js/scripts.js?20190929200939"></script>
-  </body>
-</html>
+<section class="section-block size-xl" style="background-color:#333">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="text-sm text-bold color-truewhite mb-3">Text Box</div>
+				<div class="text-sm color-truewhite-o">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, similique.</div>
+			</div>
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="text-sm text-bold color-truewhite mb-3">Text Box</div>
+				<div class="text-sm color-truewhite-o">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, similique.</div>				
+			</div>
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="text-sm text-bold color-truewhite mb-3">Text Box</div>
+				<div class="text-sm color-truewhite-o">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, similique.</div>				
+			</div>
+		</div>
+	</div>
+</section>

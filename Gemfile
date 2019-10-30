@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-	gem 'jekyll', '~> 3.8.2'
+	gem 'jekyll', '~> 4.0.0'
 	gem 'jekyll-inline-svg'
-	gem 'jekyll-include-cache'
+	# gem 'jekyll-include-cache'
 	# gem 'scss_lint'
 	# gem 'jekyll-redirect-from', '~> 0.13.0'
 	# gem 'jekyll-sitemap', '~> 1.2.0'

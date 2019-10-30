@@ -4,6 +4,7 @@
   "description": "i dont know why i need to do this",
   "main": "index.js",
   "scripts": {
+    "dev": "bundle exec jekyll serve --watch --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -18,14 +18,11 @@ description:
 					<span class="text-xl color-trueblack">Designer</span>
 					<span class="text-xl color-trueblack">Writer</span>
 					<span class="text-xl color-trueblack">Educator</span>
-
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-
 
 <section class="section-block size-xl" style="background-color:#5E0914">
 	<div class="container">

@@ -5,10 +5,13 @@
 ---
 
 @import "variables";
+@import "root";
+
 @import "reboot";
 @import "fonts";
 @import "grid";
 @import "animate";
 @import "utilities";
 @import "opentype";
-@import "general";
+
+@import "projects";

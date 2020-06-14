@@ -15,7 +15,7 @@ includes_dir: _includes
 
 # Handling Reading
 include: [".htaccess"]
-exclude: ["admin/" ,"lib/" ,"src/" ,"trash/" ,"zones/" ,"master/_site" ,"master/LICENSE" ,"Gemfile" ,"Gemfile.lock" ,".gitignore" ,"node_modules" ,"vendor/bundle/" ,"vendor/cache/" ,"vendor/gems/" ,"vendor/ruby/" ,"LICENSE"]
+exclude: ["Gemfile" ,"Gemfile.lock" ,".gitignore" ,"node_modules" ,"vendor/bundle/" ,"vendor/cache/" ,"vendor/gems/" ,"vendor/ruby/" ,"LICENSE", "README", "package.json"]
 keep_files: ["images"]
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
